@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+	margin:  2px;
+}
+body{
+	background-color: #17181b;
+}
+.navbar-expand-lg{
+	background-color: #FEF102;
+}
+
+nav ul li a:hover{
+	background-color: #efefef;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.carousel-inner img{
+	width: 100%;
+	height: 400px;
+}
+.quienessomos{
+   display: flex;
+}
+.qsms{
+	padding-top: 10px;
+}
+.parrafoqs{
+	font-size: 28px;
+	padding-top: 80px;
+	padding-right: 100px;
+	color: #efefef;
+}
+.quienessomos .qsms h1{
+	color: #efefef;
+}
+.lista-products h1{
+	color: #efefef;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.row{
+	justify-content: center !important;
+}
+.four-columns{
+    margin-left: 10px;
+	margin-right: 10px;
+	width: 450px;
+	height: 500px;
+}
+.card{	
+	text-align: center;
+	border: 1px solid rgba(255, 255, 255, 0.05);
+	background: #1d2124;
+}
+
+.info-card{
+	padding: 10px 20px;
+	color: #efefef;
+}
+.info-card p,
+.card h4{
+	margin-bottom: 5px;
+}
+.info-card .precio {
+	font-size: 18px;
+	margin-top: 10px;
+}
+.info-card .precio span{
+	font-weight: 700 ;
+	font-size:22px ;
+}
+
+
+.four-columns .card img{
+	width: 200px;
+}
+.container-fluid h1{
+	color: #efefef;
+	font-size: 48px;
+}
+.col-md h3{
+	color: #efefef;
+}
+.col-md P{
+	color: #efefef;
+}
+.form-group label{
+	color: #efefef;
+}
+
+.btn{
+	width: 20%;
+}
+/*pie de pagina*/
+footer{
+	margin: 0 !important;
+}
+.pie-pagina{
+	width: 100%;
+	background-color: #FEF102;
+}
+.pie-pagina .grupo-1{
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+}
+.box-a{
+	height: 50%;
+	position: relative;
+	top: 30%;
+}
+.box-b{
+	height: 50%;
+	position: relative;
+	top: 39%;
+}
+.pie-pagina .grupo-1 .box figure{
+	width: 50%;
+	height:50%;
+	display:flex;
+}
+.pie-pagina .grupo-1 .box figure img{
+	width: 350px;
+}
+.pie-pagina .grupo-1 .box h2{
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+	margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+	display: inline-block;
+	text-decoration: none;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	margin-right: 10px;
+	background-color: #efefef;
+	text-align: center;
+	transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+	color: black;
+}
+.pie-pagina .grupo-2{
+	background-color: #efefef;
+	padding: 15px 10px;
+	text-align: center;
+}
+.pie-pagina .grupo-2 small{
+	font-size: 15px;
+}
+@media screen and (max-width: 800px){
+	.pie-pagina .grupo-1{
+		width: 10%;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 30px;
+		padding: 35px 0px;
+	}
+}
+
+.error-mostrar{
+	border: 5px solid red !important;
+}
+
+.correcto{
+	border: 5px solid green !important;
+}
+
+@media (min-width: 550px){
+	.card{
+		text-align: left;
+	}
+}
+
+
