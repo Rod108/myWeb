@@ -23,7 +23,7 @@ if (empty($_SESSION['active'])) {
     <div class="wrapper ">
         <div class="sidebar" data-color="purple" data-background-color="blue" data-image="../assets/img/sidebar.jpg">
             <div class="logo bg-primary"><a href="./" class="simple-text logo-normal">
-                    M&M
+                    Colfarma
                 </a></div>
             <div class="sidebar-wrapper">
                 <ul class="nav">
@@ -89,7 +89,7 @@ if (empty($_SESSION['active'])) {
             <nav class="navbar navbar-expand-lg navbar-absolute fixed-top">
                 <div class="container-fluid">
                     <div class="navbar-wrapper">
-                        <a class="navbar-brand" href="javascript:;">Sistema Lacteos La Pepita</a>
+                        <a class="navbar-brand" href="javascript:;">Veterinaria Colfarma</a>
                     </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="sr-only">Toggle navigation</span>
