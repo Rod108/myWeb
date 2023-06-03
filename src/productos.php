@@ -83,7 +83,7 @@ include_once "includes/header.php";
             <div class="col-md-12">
                 <div class="card shadow-lg">
                     <div class="card-header bg-primary text-white">
-                        Productos
+                        Lista de Productos
                     </div>
                     <div class="card-body">
                         <form action="" method="post" autocomplete="off" id="formulario">
